@@ -20,7 +20,7 @@ on:
 
 # Find your Replicate API token at https://replicate.com/account
 env:
-  replicate-api-token: ${{ secrets.REPLICATE_API_TOKEN }}
+  replicate-api-token: ${{ secrets.REPLICATE_DREAMBOOTH_API_TOKEN }}
 
 jobs:
   train:
